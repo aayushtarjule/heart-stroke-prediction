@@ -2,7 +2,7 @@ import joblib
 
 # Load saved model, scaler, and expected columns
 model = joblib.load("stack_heart.pkl")
-scaler = joblib.load("caler.pkl")
+scaler = joblib.load("scaler.pkl")
 expected_columns = joblib.load("columns.pkl")
 
 st.title("Heart Stroke Prediction by akarsh")
