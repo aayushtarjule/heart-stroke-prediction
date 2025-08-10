@@ -1,4 +1,6 @@
 import joblib
+import streamlit as st
+import pandas as pd
 
 # Load saved model, scaler, and expected columns
 model = joblib.load("stack_heart.pkl")
